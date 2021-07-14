@@ -1,0 +1,19 @@
+.visor{
+    border: 1px black solid;
+    width: 11rem;
+    display: flex;
+    justify-content: center;
+}
+
+.view{
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+}
+
+section button{
+    margin: 5px;
+    width: 2rem;
+    background-color: violet;
+    border-radius: 10px;
+}
