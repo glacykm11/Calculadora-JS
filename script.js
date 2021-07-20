@@ -36,7 +36,7 @@ document.getElementById("num6").addEventListener("click", () => calculadora.nume
 document.getElementById("num7").addEventListener("click", () => calculadora.numeroVisor('7'))
 document.getElementById("num8").addEventListener("click", () => calculadora.numeroVisor('8'))
 document.getElementById("num9").addEventListener("click", () => calculadora.numeroVisor('9'))
-document.getElementById("num0").addEventListener("click", () => calculadora.numeroVisor('10'))
+document.getElementById("num0").addEventListener("click", () => calculadora.numeroVisor('0'))
 
 //Operações
 document.getElementById("somar").addEventListener("click", () => calculadora.numeroVisor('+'))
