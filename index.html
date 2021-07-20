@@ -9,16 +9,21 @@
     <body>
         <main class="view">
             <section class="calc">
+                <!--Header com título Calculadora e Visor-->
                 <header>
                     <h1>Calculadora</h1>
                     <input id="resultado" type="text" name="resultado" disabled>
                 </header>
 
-                <button id="num1" class="num" value="1" >1</button>
-                <button id="num2" class="num" value="2">2</button>
-                <button id="num3" class="num" value="3">3</button>
-                <button id="somar" value="+">+</button>
+                <!--Botões de 1 a 3 e Botão de SOMA-->
+                <section>
+                    <button id="num1" class="num" value="1" >1</button>
+                    <button id="num2" class="num" value="2">2</button>
+                    <button id="num3" class="num" value="3">3</button>
+                    <button id="somar" value="+">+</button>
+                </section>
 
+                <!--Botões de 4 a 6 e Botão de SUBTRAÇÃO-->
                 <section>
                     <button id="num4" class="num" value="4">4</button>
                     <button id="num5" class="num" value="5">5</button>
@@ -26,17 +31,20 @@
                     <button id="subtrair" value="-">-</button>
                 </section>
 
+                <!--Botões de 7 a 9 e Botão de MULTIPLICAÇÃO-->
                 <section>
                     <button id="num7" class="num" value="7">7</button>
                     <button id="num8" class="num" value="8">8</button>
                     <button id="num9" class="num" value="9">9</button>
-                    <button id="multiplicar" value="*">*</button>
-                        <section>
-                            <button id="limpar" class="num" value="AC" >C</button>
-                            <button id="num0" class="num" value="0" >0</button>
-                            <button id="igual" value="=">=</button>
-                            <button id="dividir" value="/">/</button>
-                        </section>
+                    <button id="multiplicar" value="*">*</button>   
+                </section>
+
+                <!--Botões 0, C, = e Botão de DIVISÃO-->
+                <section>
+                    <button id="limpar" class="num" value="AC" >C</button>
+                    <button id="num0" class="num" value="0">0</button>
+                    <button id="igual" value="=">=</button>
+                    <button id="dividir" value="/">/</button>
                 </section>
             </section>          
         </main>
