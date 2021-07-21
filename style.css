@@ -26,7 +26,7 @@ section button{
 body{
     display: flex;
     justify-content: center;
-    background-image: url("/images/4853433.jpg") ;
+    background-image: url("images/4853433.jpg") ;
 }
 
 .calc{
