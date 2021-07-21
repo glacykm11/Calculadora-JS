@@ -1,8 +1,6 @@
 class Calculadora {
     constructor(){
-        this.clear = document.getElementById('resultado')
         this.visor = document.getElementById('resultado')
-        this.calculo = document.getElementById('resultado')
     }
 
     numeroVisor(numeroCalculadora){
@@ -10,12 +8,12 @@ class Calculadora {
     }
 
     limpar(){
-        this.clear.value = ""
+        this.visor.value = ""
     }
 
     calcular(){
-        if(this.calculo){
-            document.getElementById('resultado').value = eval(this.calculo.value);
+        if(this.visor){
+            document.getElementById('resultado').value = eval(this.visor.value);
         }
         else{
             resultado.value = "Nada para calcular"
